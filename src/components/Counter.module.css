@@ -1,0 +1,8 @@
+.counter {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1px;
+  display: inline-block;
+  border-radius: 15px;
+}

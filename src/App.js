@@ -1,11 +1,14 @@
 import "./App.css";
-import MyBtn from "./components/MyBtn";
+import Counter from "./components/Counter";
+import AboutMe from "./components/MyAboutMe";
+import TodoListR from "./components/TodoListR";
 
 function App() {
   return (
     <div>
-      <h2>App</h2>
-      <MyBtn></MyBtn>
+      <Counter title="Likes1">Likes</Counter>
+      <TodoListR />
+      <AboutMe />
     </div>
   );
 }
